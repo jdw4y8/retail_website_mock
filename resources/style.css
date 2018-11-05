@@ -1,0 +1,207 @@
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  text-decoration: none;
+}
+
+
+/* header */
+header {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+  background-color: rgb(0, 62, 107);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.logo img {
+  height: 30px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+nav {
+  padding-right: 50px;
+}
+
+span a {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  display: inline-flex;
+  justify-content: space-around;
+  padding: 20px;
+  text-decoration: none;
+}
+
+/*page after header/nav*/
+.page {
+  position: relative;
+  top: 85px;
+  display: block;
+  padding: 0px 20px;
+}
+
+.topper {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.crumb {
+  font-size: 12px;
+  color: rgb (77, 77, 79);
+  margin-bottom: 5px;
+}
+
+.crumb a {
+  text-decoration: none;
+  color: rgb(0, 127, 216);
+}
+
+.kicker p {
+  color: white;
+  font-weight: 700;
+  font-size: 10px;
+  background-color: rgb(0, 62, 107);
+  display: inline-block;
+  height: 16px;
+  padding: 3px 3px 1px 3px;
+}
+
+.main {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+
+.story-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  width: 75%;
+}
+
+.sidebar {
+  display: flex;
+  flex-grow: 1;
+  width: 25%;
+  margin-right: 10px;
+}
+
+.sidebar img {
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 20px;
+
+}
+
+.story-body img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 44px;
+  font-weight: 300;
+  color: rgb(0, 62, 107);
+  z-index: 2;
+  line-height: 1.1;
+  margin: 0 0 15px 0;
+}
+
+.byline {
+  font-weight: 300;
+  font-size: 11px;
+  color: rbg(77, 77, 79);
+}
+
+.byline_name {
+  font-weight: 700;
+  color: rgb(0, 127, 216);
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(0, 62, 107);
+  margin: 0;
+}
+
+p, ul {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(77, 77, 79);
+}
+
+
+.promos {
+  position: relative;
+  top: 110px;
+  margin: 0px 50px;
+  padding: 0px 20px;
+  width: auto;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  height: 300px;
+}
+
+.promo_1 {
+  background: linear-gradient(0deg, rgba(64, 64, 64, 0.8), transparent), url("./images/philips-hue.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 250px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  text-align: left;
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.promo_2 {
+  background: linear-gradient(0deg, rgba(64, 64, 64, 0.8), transparent), url("./images/JBL-Link-View-smart-home-google-assistant.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 250px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  text-align: left;
+  padding: 10px;
+  flex-grow: 1;
+  margin: 0px 10px 0px 10px;
+}
+
+.promo_3 {
+  background: linear-gradient(0deg, rgba(64, 64, 64, 0.8), transparent), url("./images/google-family.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 250px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  text-align: left;
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.promotext {
+  position: relative;
+  top: 45px;
+}
+.link a {
+  font-size: 16px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 8px rgba(0, 0, 0)
+}
